@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Book Now</title>
+    <link rel="stylesheet" href="stylesheet2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <section class="logo">
+                <strong>Tickets</strong>
+                <span class="dot"></span>
+                <span>Around</span>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="YourBookings.html">Your Bookings</a></li>
+                    <li><a href="Booking.html">Book Now</a></li>
+                    <!--<li><a>Login</a></li>
+                    <li><a>Sign Up</a></li>-->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="booking">
+        <div class="container">
+            <div class="forms">
+
+                <h2>Bus Seat Booking</h2>
+                <form>
+
+                    <label for="From">From</label>
+                    <select id="Source" name="Source" required>
+                        <option value="">-From-</option>
+                        <option value="Wadala">Wadala</option>
+                        <option value="Dadar">dadar</option>
+                        <option value="Vashi">Vashi</option>
+                        <option value="Panvel">Panvel</option>
+                    </select>
+                    <br>
+
+
+
+                    <label for="Dest">Destination</label>
+                    <select id="Dest" name="Dest" required>
+                        <option value="">-To-</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Trivandrum">Trivandrum</option>
+                    </select>
+
+                    <br>
+                    <label>Date</label>
+                    <input type="date" id="dates"/>
+                    <br>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" pattern="[a-zA-Z ]+" required>
+                    <br>
+                    <label for="mail">Email-Id:</label>
+                    <input type="email" id="mail" name="mail" pattern="[a-zA-Z0-9.]+@[a-z]{1,}.com"  required>
+                    <br>
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value=""></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <br>
+                    <label for="seat-number">Seat Number:</label>
+                    <select id="seat-number" name="seatNumber" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                    </select>
+                    <br>
+                    <button type="submit">Book Seat</button>
+                </form>
+                
+             </div>
+             <!-- <div id="seating-arrangement">
+                <img src="seat.JPG" >
+            </div> -->
+        </div>
+    </section>
+
+
+    <footer>
+
+        <div class="bottom-nav">
+            <div class="container">
+
+                <ul>
+                    <li class="list-title">Details</li>
+                    <li><a href="#">Your Journey</a></li>
+                    <li><a href="#">Buses</a></li>
+                    <li><a href="#">Stations</a></li>
+                </ul>
+
+                <ul>
+                    <li class="list-title">Social Media</li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+
+                <ul>
+                    <li class="list-title">Customer Service</li>
+                    <li><a href="#">Change Booking</a></li>
+                    <li><a href="#">Cancel Booking</a></li>
+                    <li><a href="#">Accompaniments</a></li>
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="copyright-text">
+            2023 &copy; All Rights Reserved
+        </div>
+
+    </footer>
+</body>
+</html>

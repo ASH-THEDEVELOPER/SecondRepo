@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Output</title>
+    <script src="Output.js"></script>
+    <link rel="stylesheet" href="YourBookings.css">
+</head>
+<body>
+    <h1>Booking Output</h1>
+    <label for="email">Enter Email ID:</label>
+    <input type="email" id="email" name="email">
+    <button onclick="displayBookings()">Submit</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Seat Number</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Date</th>
+                <th>Source</th>
+                <th>Destination</th>
+            </tr>
+        </thead>
+        <tbody id="bookingsTableBody">
+        </tbody>
+    </table>
+</body>
+</html>
